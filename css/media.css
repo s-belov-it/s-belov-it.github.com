@@ -25,20 +25,21 @@
         margin: 0;
     }
 
-    .advantage_container {
-        margin-bottom: 20px
-    }
-
-    .form_container input {
-        margin-bottom: 20px;
-    }
-
     .footer_info {
         margin-bottom: 20px;
         text-align: center
     }
 
-    .footer_social_container {
-        margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .header_heading {
+        font-size: 8vw;
     }
+
+    .header_subheading {
+        font-size: 5vw;
+    }
+
 }

@@ -1,9 +1,3 @@
-/*
-
-light = #FA4DFF
-dark = #171A41
-*/
-
 * {
     box-sizing: border-box;
     font-family: "PT-Sans";
@@ -36,7 +30,7 @@ ul {
 }
 
 .header_container {
-    padding: 2vh 0 8vh;
+    padding: 2vh 15px 8vh;
     background-size: cover;
     margin-bottom: 1vh;
 }
@@ -99,6 +93,7 @@ ul {
 .menu_list {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .menu_item:not(:last-child) {
@@ -108,6 +103,10 @@ ul {
 .menu_item a {
     color: #FA4DFF;
     text-decoration: none;
+}
+
+.advantage_container {
+    margin-bottom: 20px
 }
 
 .advantage_image {
@@ -183,10 +182,13 @@ ul {
     margin-right: 30px;
 }
 
+.form_container input {
+    margin-bottom: 20px;
+}
+
 .subscribe_button {
     font-weight: normal;
 }
-
 
 #footer_contact {
     background-color: #171A41;
@@ -209,6 +211,10 @@ ul {
 .footer_logo {
     width: 70px;
     height: auto;
+}
+
+.footer_social_container {
+    margin-bottom: 20px;
 }
 
 .footer_link {
