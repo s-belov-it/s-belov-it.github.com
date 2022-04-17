@@ -1,0 +1,216 @@
+/*
+
+light = #FA4DFF
+dark = #171A41
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: "PT-Sans";
+    line-height: normal;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section_container {
+    margin-bottom: 10vh;
+}
+
+.section_heading {
+    font-family: "Minecraft-Title";
+    color: #FA4DFF;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#header {
+    background: url("../img/header_bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header_container {
+    padding: 2vh 0 8vh;
+    background-size: cover;
+    margin-bottom: 1vh;
+}
+
+.header_info {
+    align-self: flex-start;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.header_heading {
+    font-family: "Minecraft-Title";
+    font-size: 5rem;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin: 3vh 0 1vh;
+}
+
+.header_subheading {
+    font-family: "Roboto";
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 5vh;
+}
+
+.action_button {
+    font-family: "Roboto";
+    font-weight: 900;
+    color: #171A41;
+    background-color: #FA4DFF;
+    border-color: #FA4DFF;
+}
+
+.action_button:hover {
+    color: #FA4DFF;
+    background-color: #171A41;
+    border-color: #FA4DFF;
+}
+
+.header_button {
+    font-size: 1.5rem;
+    padding: 1vw 3vw;
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+}
+
+.info_item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.menu_item a {
+    color: #FA4DFF;
+    text-decoration: none;
+}
+
+.advantage_image {
+    display: block;
+    width: 70px;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+.mod_image {
+    margin-bottom: 20px;
+}
+
+.mod_heading {
+    margin-bottom: 20px;
+}
+
+.mod_button {
+    color: #171A41 !important;
+    background-color: #FA4DFF !important;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.mod_text {
+    text-align: left;
+}
+
+.rating_container {
+    background-color: #fff;
+}
+
+.fotorama__thumb-border {
+    border-color: #FA4DFF;
+}
+
+.owl-nav span {
+    font-size: 30px;
+}
+
+.owl-prev {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block !important;
+    border: 0px solid black;
+    color: #171A41 !important;
+    background-color: #FA4DFF !important;
+}
+
+.owl-next {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0px solid black;
+    color: #171A41 !important;
+    background-color: #FA4DFF !important;
+}
+
+.owl-prev span, .owl-next span {
+    font-size: 30px;
+}
+
+.form_container {
+    margin-top: 20px;
+}
+
+.form_container input:not(:last-child) {
+    margin-right: 30px;
+}
+
+.subscribe_button {
+    font-weight: normal;
+}
+
+
+#footer_contact {
+    background-color: #171A41;
+}
+
+.footer_container {
+    margin-bottom: 0;
+    padding: 25px 20px;
+}
+
+.footer_social:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social_image {
+    width: 50px;
+    height: auto;
+}
+
+.footer_logo {
+    width: 70px;
+    height: auto;
+}
+
+.footer_link {
+    color: #FA4DFF;
+}

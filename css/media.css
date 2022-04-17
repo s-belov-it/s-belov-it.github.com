@@ -1,0 +1,44 @@
+@media (max-width: 576px) {
+    .info_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_heading {
+        font-size: 30px;
+    }
+
+    .header_subheading {
+        font-size: 20px;
+    }
+
+    .menu_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_item:not(:last-child) {
+        margin: 0 0 20px;
+    }
+
+    .menu_item {
+        margin: 0;
+    }
+
+    .advantage_container {
+        margin-bottom: 20px
+    }
+
+    .form_container input {
+        margin-bottom: 20px;
+    }
+
+    .footer_info {
+        margin-bottom: 20px;
+        text-align: center
+    }
+
+    .footer_social_container {
+        margin-bottom: 20px;
+    }
+}
